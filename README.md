@@ -20,9 +20,10 @@ Bu projede kullanıcılar kurslara katılabilir, eğitmenler dersler ekleyebilir
 ## 📂 Kurulum
 ```bash
 # Projeyi klonla
-git clone https://github.com/kullaniciadi/learnhub-angular-lms.git
+git clone https://github.com/tubanursmsk/learnhub-angular-lms.git
 
 # Angular tarafı
+
 cd learnhub
 npm install
 ng serve -o
