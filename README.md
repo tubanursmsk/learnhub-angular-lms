@@ -18,23 +18,16 @@ Bu projede kullanıcılar kurslara katılabilir, eğitmenler dersler ekleyebilir
 - Bootstrap / Angular Material
 
 ## 📂 Kurulum
-# Projeyi klonla
 
 ```bash
+# Projeyi klonla
 git clone https://github.com/tubanursmsk/learnhub-angular-lms.git
 
- Angular tarafı
+# Angular tarafı
 
-```bash
 cd learnhub
-
-```bash
 npm install
-
-```bash
 ng serve -o
 
 # Backend (JSON Server)
-
-```bash
 json-server --watch db.json --port 3000
