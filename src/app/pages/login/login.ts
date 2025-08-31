@@ -17,6 +17,7 @@ export class Login {
   email = ''
   password = ''
   error = ''
+  remember = false
 
 
   //fonksiyon
@@ -28,7 +29,7 @@ export class Login {
     } else if(this.password === '') {
       this.error = ' Password empty!'
     } else {
-    console.log("Form Send:", this.email, this.password);
+    console.log("Form Send:", this.email, this.password, this.remember);
   }
  }
 }
