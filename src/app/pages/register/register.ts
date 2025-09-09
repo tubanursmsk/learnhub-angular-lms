@@ -52,7 +52,7 @@ export class Register {
     }else if (this.password === '') {
       this.error = 'Password empty!'
       this.passwordRef!.nativeElement.focus()
-    }else if (this.password.length < 8) {
+    }else if (this.password.length > 7) {
       this.error = 'Password count min 8'
       this.passwordRef!.nativeElement.focus()
     }else if (this.password !== this.passwordAgain) {
@@ -76,8 +76,6 @@ export class Register {
       })
     }
   }
-      
-    
 
   // reset funksiyonu
   formReset(){

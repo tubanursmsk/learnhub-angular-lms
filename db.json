@@ -5,113 +5,140 @@
       "name": "Ahmet Yılmaz",
       "email": "ahmet@example.com",
       "password": "ahmet1234",
-      "role": "student"
+      "role": "student",
+      "access_token": "ey123.ahmet.token",
+      "token_type": "bearer",
+      "expires_in": 3600
     },
     {
       "id": "2",
       "name": "Ayşe Demir",
       "email": "ayse@example.com",
       "password": "ayse12345",
-      "role": "instructor"
+      "role": "instructor",
+      "access_token": "ey456.ayse.token",
+      "token_type": "bearer",
+      "expires_in": 3600
     },
     {
       "id": "3",
       "name": "Mehmet Kaya",
       "email": "mehmet@example.com",
       "password": "mehmet123",
-      "role": "student"
+      "role": "student",
+      "access_token": "ey789.mehmet.token",
+      "token_type": "bearer",
+      "expires_in": 3600
     },
     {
       "id": "4",
       "name": "Elif Çelik",
       "email": "elif@example.com",
       "password": "elif1234",
-      "role": "instructor"
+      "role": "instructor",
+      "access_token": "ey101.elif.token",
+      "token_type": "bearer",
+      "expires_in": 3600
     },
     {
       "id": "5",
       "name": "Burak Ak",
       "email": "burak@example.com",
       "password": "burak123",
-      "role": "student"
+      "role": "student",
+      "access_token": "ey202.burak.token",
+      "token_type": "bearer",
+      "expires_in": 3600
     },
     {
       "id": "6",
       "name": "Fatma Koç",
       "email": "fatma@example.com",
       "password": "fatma123",
-      "role": "student"
+      "role": "student",
+      "access_token": "ey303.fatma.token",
+      "token_type": "bearer",
+      "expires_in": 3600
     },
     {
       "id": "7",
       "name": "Selim Arslan",
       "email": "selim@example.com",
       "password": "selim123",
-      "role": "instructor"
+      "role": "instructor",
+      "access_token": "ey404.selim.token",
+      "token_type": "bearer",
+      "expires_in": 3600
     },
     {
       "id": "8",
       "name": "Zeynep Güneş",
       "email": "zeynep@example.com",
       "password": "zeynep123",
-      "role": "student"
+      "role": "student",
+      "access_token": "ey505.zeynep.token",
+      "token_type": "bearer",
+      "expires_in": 3600
     },
     {
       "id": "9",
       "name": "Okan Bal",
       "email": "okan@example.com",
       "password": "okan12345",
-      "role": "student"
+      "role": "student",
+      "access_token": "ey606.okan.token",
+      "token_type": "bearer",
+      "expires_in": 3600
     },
     {
       "id": "10",
       "name": "Deniz Yurt",
       "email": "deniz@example.com",
       "password": "deniz12345",
-      "role": "instructor"
+      "role": "instructor",
+      "access_token": "ey707.deniz.token",
+      "token_type": "bearer",
+      "expires_in": 3600
     },
     {
       "id": "11",
       "name": "Sevgi Polat",
       "email": "sevgi@example.com",
       "password": "sevgi1234",
-      "role": "student"
+      "role": "student",
+      "access_token": "ey808.sevgi.token",
+      "token_type": "bearer",
+      "expires_in": 3600
     },
     {
       "id": "4e75",
       "name": "Tuba Nur Şimşek",
       "email": "tuba@gmail.com",
+      "password": "tuba1234",
+      "role": "student",
+      "access_token": "ey909.tuba.token",
+      "token_type": "bearer",
+      "expires_in": 3600
+    },
+    {
+      "id": "d76f",
+      "email": "tubanursmsk@gmail.com",
       "password": "tuba1234"
     },
     {
-      "id": "272b",
-      "email": "tuba@gmail.com",
+      "id": "59d1",
+      "email": "tubanursmsk@gmail.com",
       "password": "tuba1234"
     },
     {
-      "id": "fcdf",
-      "email": "tuba@gmail.com",
+      "id": "b092",
+      "email": "tubanursmsk@gmail.com",
       "password": "tuba1234"
     },
     {
-      "id": "9fcc",
-      "email": "tuba@gmail.com",
+      "id": "b9c0",
+      "email": "tubanursmsk@gmail.com",
       "password": "tuba1234"
-    },
-    {
-      "id": "2206",
-      "email": "tuba@gmail.com",
-      "password": "tuba123"
-    },
-    {
-      "id": "ff2c",
-      "email": "tuba@gmail.com",
-      "password": "tuba12"
-    },
-    {
-      "id": "9760",
-      "email": "tuba@gmail.com",
-      "password": "tuba1"
     }
   ],
   "courses": [

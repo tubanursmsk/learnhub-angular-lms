@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { apiUrl } from '../utils/apiUrl';
 import { Observable } from 'rxjs';
+import { IUser } from '../models/IUser';
 
 
 @Injectable({
@@ -16,7 +17,7 @@ export class Api {
       email: email,
       password: password
     }
-    return this.http.post(apiUrl.users, sendObj)
+    return this.http.post<IUser>(apiUrl.users, sendObj)
   }
   
   userRegister(name: string, email: string, password: string) {
@@ -25,7 +26,7 @@ export class Api {
       email: email,
       password: password
     }
-    return this.http.post(apiUrl.users, sendObj)
+    return this.http.post<IUser>(apiUrl.users, sendObj)
   }
 
 
