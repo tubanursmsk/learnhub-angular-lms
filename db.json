@@ -1,0 +1,389 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ahmet Yılmaz",
+      "email": "ahmet@example.com",
+      "password": "ahmet1234",
+      "role": "student"
+    },
+    {
+      "id": "2",
+      "name": "Ayşe Demir",
+      "email": "ayse@example.com",
+      "password": "ayse12345",
+      "role": "instructor"
+    },
+    {
+      "id": "3",
+      "name": "Mehmet Kaya",
+      "email": "mehmet@example.com",
+      "password": "mehmet123",
+      "role": "student"
+    },
+    {
+      "id": "4",
+      "name": "Elif Çelik",
+      "email": "elif@example.com",
+      "password": "elif1234",
+      "role": "instructor"
+    },
+    {
+      "id": "5",
+      "name": "Burak Ak",
+      "email": "burak@example.com",
+      "password": "burak123",
+      "role": "student"
+    },
+    {
+      "id": "6",
+      "name": "Fatma Koç",
+      "email": "fatma@example.com",
+      "password": "fatma123",
+      "role": "student"
+    },
+    {
+      "id": "7",
+      "name": "Selim Arslan",
+      "email": "selim@example.com",
+      "password": "selim123",
+      "role": "instructor"
+    },
+    {
+      "id": "8",
+      "name": "Zeynep Güneş",
+      "email": "zeynep@example.com",
+      "password": "zeynep123",
+      "role": "student"
+    },
+    {
+      "id": "9",
+      "name": "Okan Bal",
+      "email": "okan@example.com",
+      "password": "okan12345",
+      "role": "student"
+    },
+    {
+      "id": "10",
+      "name": "Deniz Yurt",
+      "email": "deniz@example.com",
+      "password": "deniz12345",
+      "role": "instructor"
+    },
+    {
+      "id": "11",
+      "name": "Sevgi Polat",
+      "email": "sevgi@example.com",
+      "password": "sevgi1234",
+      "role": "student"
+    },
+    {
+      "id": "4e75",
+      "name": "Tuba Nur Şimşek",
+      "email": "tuba@gmail.com",
+      "password": "tuba1234"
+    },
+    {
+      "id": "272b",
+      "email": "tuba@gmail.com",
+      "password": "tuba1234"
+    },
+    {
+      "id": "fcdf",
+      "email": "tuba@gmail.com",
+      "password": "tuba1234"
+    },
+    {
+      "id": "9fcc",
+      "email": "tuba@gmail.com",
+      "password": "tuba1234"
+    },
+    {
+      "id": "2206",
+      "email": "tuba@gmail.com",
+      "password": "tuba123"
+    },
+    {
+      "id": "ff2c",
+      "email": "tuba@gmail.com",
+      "password": "tuba12"
+    },
+    {
+      "id": "9760",
+      "email": "tuba@gmail.com",
+      "password": "tuba1"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "title": "Angular Başlangıç",
+      "description": "Temel Angular konuları",
+      "instructorId": 2
+    },
+    {
+      "id": "2",
+      "title": "React ile Modern Web",
+      "description": "React ve Hooks kullanımı",
+      "instructorId": 4
+    },
+    {
+      "id": "3",
+      "title": "Node.js Backend",
+      "description": "Express.js ve REST API",
+      "instructorId": 7
+    },
+    {
+      "id": "4",
+      "title": "Python Veri Analizi",
+      "description": "Pandas ve Numpy",
+      "instructorId": 10
+    },
+    {
+      "id": "5",
+      "title": "Java OOP",
+      "description": "Nesne yönelimli programlama",
+      "instructorId": 2
+    },
+    {
+      "id": "6",
+      "title": "SQL Temelleri",
+      "description": "Veritabanı sorgulama",
+      "instructorId": 4
+    },
+    {
+      "id": "7",
+      "title": "HTML & CSS",
+      "description": "Web sayfası tasarımı",
+      "instructorId": 7
+    },
+    {
+      "id": "8",
+      "title": "C# ile Yazılım Geliştirme",
+      "description": "C# diline giriş",
+      "instructorId": 10
+    },
+    {
+      "id": "9",
+      "title": "Mobil Programlama Flutter",
+      "description": "Flutter ile cross-platform",
+      "instructorId": 2
+    },
+    {
+      "id": "10",
+      "title": "Yapay Zekâ Giriş",
+      "description": "Makine öğrenmesine giriş",
+      "instructorId": 4
+    },
+    {
+      "id": "11",
+      "title": "Linux Sistemleri",
+      "description": "Temel Linux komutları",
+      "instructorId": 7
+    }
+  ],
+  "lessons": [
+    {
+      "id": "1",
+      "courseId": 1,
+      "title": "Angular Kurulumu",
+      "videoUrl": "https://example.com/angular1"
+    },
+    {
+      "id": "2",
+      "courseId": 2,
+      "title": "React JSX",
+      "videoUrl": "https://example.com/react1"
+    },
+    {
+      "id": "3",
+      "courseId": 3,
+      "title": "Express Router",
+      "videoUrl": "https://example.com/node1"
+    },
+    {
+      "id": "4",
+      "courseId": 4,
+      "title": "Pandas DataFrame",
+      "videoUrl": "https://example.com/python1"
+    },
+    {
+      "id": "5",
+      "courseId": 5,
+      "title": "Java Class Yapısı",
+      "videoUrl": "https://example.com/java1"
+    },
+    {
+      "id": "6",
+      "courseId": 6,
+      "title": "Select Sorgusu",
+      "videoUrl": "https://example.com/sql1"
+    },
+    {
+      "id": "7",
+      "courseId": 7,
+      "title": "CSS Flexbox",
+      "videoUrl": "https://example.com/htmlcss1"
+    },
+    {
+      "id": "8",
+      "courseId": 8,
+      "title": "C# Syntax",
+      "videoUrl": "https://example.com/csharp1"
+    },
+    {
+      "id": "9",
+      "courseId": 9,
+      "title": "Flutter Widget",
+      "videoUrl": "https://example.com/flutter1"
+    },
+    {
+      "id": "10",
+      "courseId": 10,
+      "title": "Makine Öğrenmesi Nedir?",
+      "videoUrl": "https://example.com/ai1"
+    },
+    {
+      "id": "11",
+      "courseId": 11,
+      "title": "Linux Terminal",
+      "videoUrl": "https://example.com/linux1"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "userId": 1,
+      "courseId": 1
+    },
+    {
+      "id": "2",
+      "userId": 3,
+      "courseId": 2
+    },
+    {
+      "id": "3",
+      "userId": 5,
+      "courseId": 3
+    },
+    {
+      "id": "4",
+      "userId": 6,
+      "courseId": 4
+    },
+    {
+      "id": "5",
+      "userId": 8,
+      "courseId": 5
+    },
+    {
+      "id": "6",
+      "userId": 9,
+      "courseId": 6
+    },
+    {
+      "id": "7",
+      "userId": 11,
+      "courseId": 7
+    },
+    {
+      "id": "8",
+      "userId": 1,
+      "courseId": 8
+    },
+    {
+      "id": "9",
+      "userId": 3,
+      "courseId": 9
+    },
+    {
+      "id": "10",
+      "userId": 5,
+      "courseId": 10
+    },
+    {
+      "id": "11",
+      "userId": 6,
+      "courseId": 11
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "courseId": 1,
+      "userId": 1,
+      "text": "Angular çok güzel anlatılmış!",
+      "date": "2025-09-04"
+    },
+    {
+      "id": "2",
+      "courseId": 2,
+      "userId": 3,
+      "text": "React hooks kısmı faydalı oldu.",
+      "date": "2025-09-04"
+    },
+    {
+      "id": "3",
+      "courseId": 3,
+      "userId": 5,
+      "text": "Node.js derslerini anlamada zorluk çekiyorum!",
+      "date": "2025-09-04"
+    },
+    {
+      "id": "4",
+      "courseId": 4,
+      "userId": 6,
+      "text": "Veri analizi örnekleri çok iyi.",
+      "date": "2025-09-04"
+    },
+    {
+      "id": "5",
+      "courseId": 5,
+      "userId": 8,
+      "text": "Java OOP konusuna giriş harika.",
+      "date": "2025-09-04"
+    },
+    {
+      "id": "6",
+      "courseId": 6,
+      "userId": 9,
+      "text": "SQL dersinde çok şey öğrendim.",
+      "date": "2025-09-04"
+    },
+    {
+      "id": "7",
+      "courseId": 7,
+      "userId": 11,
+      "text": "HTML & CSS temelleri süper.",
+      "date": "2025-09-04"
+    },
+    {
+      "id": "8",
+      "courseId": 8,
+      "userId": 1,
+      "text": "C# dersleri basit ve net.",
+      "date": "2025-09-04"
+    },
+    {
+      "id": "9",
+      "courseId": 9,
+      "userId": 3,
+      "text": "Maalesef Flutter anlatımı çok anlaşılır gelmedi.",
+      "date": "2025-09-04"
+    },
+    {
+      "id": "10",
+      "courseId": 10,
+      "userId": 5,
+      "text": "Yapay zekâ dersleri çok motive edici.",
+      "date": "2025-09-04"
+    },
+    {
+      "id": "11",
+      "courseId": 11,
+      "userId": 6,
+      "text": "Linux komutları çok karmaşık anlatılmış.",
+      "date": "2025-09-04"
+    }
+  ]
+}
