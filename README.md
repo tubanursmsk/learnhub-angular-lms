@@ -19,35 +19,35 @@ Bu projede kullanıcılar kurslara katılabilir, eğitmenler dersler ekleyebilir
 
 ## 📂 Kurulum
 
-# Projeyi klonla
+### Projeyi klonla
 ```bash
 git clone https://github.com/tubanursmsk/learnhub-angular-lms.git
 ```
 
-# Angular tarafı
+### Angular tarafı
 ```bash
 cd learnhub
 npm install
 ng serve -o
 ```
 
-# Backend (JSON Server)
+### Backend (JSON Server)
 ```bash
 json-server --watch db.json --port 3001
 ```
 
-# Frontend (Angular) kurulumu:
+### Frontend (Angular) kurulumu:
 ```bash
 npm install
 ng serve --port 4402
 ```
 
-# Tarayıcıdan açın:
-```bash
+### Tarayıcıdan açın:
+```ardunio
 http://localhost:4402
 ```
 
-## 👥 Örnek Kullanıcı Hesapları
+### 👥 Örnek Kullanıcı Hesapları
 
 | Rol        | Email                                         | Şifre |
 | ---------- | --------------------------------------------- | ----- |
@@ -58,21 +58,37 @@ http://localhost:4402
 
 ## 🖼 Proje Ekran Görüntüleri
 
-# 1. Giriş / Kayıt Ekranı
+### 1. Giriş / Kayıt Ekranı
+<img width="729" height="456" alt="Macbook-Air-localhost" src="https://github.com/user-attachments/assets/292f4496-55ac-47e2-b08e-7b515dc6aeaf" />
 
-# 2. Kurs Listesi
+<img width="729" height="456" alt="Macbook-Air-localhost (1)" src="https://github.com/user-attachments/assets/31699e6e-3c88-47a9-b468-bf6f6b2a722e" />
 
-# 3. Kurs Detay & Dersler
+<img width="683" height="312" alt="image" src="https://github.com/user-attachments/assets/eaf4be5f-f199-486a-b494-745663e7ddb1" />
 
-# 4. Yorum Sistemi
 
-# 5. Eğitmen Paneli (Kurs Ekleme / Düzenleme)
+### 2. Kurs Listesi
+<img width="729" height="456" alt="Macbook-Air-localhost (2)" src="https://github.com/user-attachments/assets/5f69c1f6-dfec-41cc-b123-bacac201d3d4" />
 
-# 6. Profil & Kayıtlı Kurslar
 
+### 3. Kurs Detay & Dersler
+[Macbook-Air-localhost-8zdg9p_6qu7dtv.webm](https://github.com/user-attachments/assets/f987ebb9-c140-4797-87d5-77d177ec9a0f)
+
+
+### 4. Yorum Sistemi
+[Macbook-Air-localhost-sm--t4zrbo-9ic.webm](https://github.com/user-attachments/assets/5f0ae28a-075a-4de5-9c27-c127b8b0e185)
+
+
+### 5. Eğitmen Paneli (Kurs Ekleme / Düzenleme)
+[Macbook-Air-localhost-g4zsxdrh921rhn.webm](https://github.com/user-attachments/assets/73d58b4e-438e-4f69-ae74-2d1928db45a7)
+
+
+### 6. Profil & Kayıtlı Kurslar
+[iPhone-13-PRO-localhost-fg2zgw5s01-j-h.webm](https://github.com/user-attachments/assets/f8f3a2fa-1596-42d1-81c4-803b1be18913)
+
+### 7. Blog
+[iPhone-13-PRO-localhost-caehe4wsvbl3rr.webm](https://github.com/user-attachments/assets/817efc26-972f-40a1-bfa2-5d54461bcecc)
 
 ---
-
 
 ## ⚡ Özellikler
 
@@ -90,9 +106,7 @@ http://localhost:4402
 ## ✅ Commit Mesaj Örnekleri
 
 feat: kurs listeleme componenti eklendi
-
 fix: login form validation hatası düzeltildi
-
 feat: eğitmen kurs ekleme özelliği eklendi
 
 ---
