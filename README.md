@@ -105,9 +105,9 @@ http://localhost:4402
 
 ## ✅ Commit Mesaj Örnekleri
 
-feat: kurs listeleme componenti eklendi
-fix: login form validation hatası düzeltildi
-feat: eğitmen kurs ekleme özelliği eklendi
+- feat: kurs listeleme componenti eklendi
+- fix: login form validation hatası düzeltildi
+- feat: eğitmen kurs ekleme özelliği eklendi
 
 ---
 
@@ -128,6 +128,15 @@ angular-lms-bitirme-projesi/
 ├─ db.json
 ├─ package.json
 └─ README.md
+```
 
+<img width="960" height="516" alt="image" src="https://github.com/user-attachments/assets/e33b5cfd-acec-4a62-b028-229fd38a4cb0" />
+
+
+---
+
+🏷 Etiketler:
+`Angular` `JS` `TypeScript` `HTML`  `CSS` `Boostarp` `JSON-Server` `LMS`  
+`Learning Management System` `Katmanlı Mimari` `RBAC` `Education` 
 
 
