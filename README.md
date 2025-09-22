@@ -135,8 +135,8 @@ angular-lms-bitirme-projesi/
 
 ---
 
-🏷 Etiketler
-`Angular` `JS` `HTML`  `CSS` `Boostarp` `JSON-Server` `LMS`  
+🏷 Etiketler:
+`Angular` `JS` `TypeScript` `HTML`  `CSS` `Boostarp` `JSON-Server` `LMS`  
 `Learning Management System` `Katmanlı Mimari` `RBAC` `Education` 
 
 
