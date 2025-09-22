@@ -57,42 +57,42 @@ Odaklanmak (focus) gibi işlemleri doğrudan DOM üzerinden yapmak için kullan�
   const nameData = nameSurnameValid(this.name)
 
   if (nameData === '') {
-    this.error = 'Name / Surname not valid!';
-    this.nameRef!.nativeElement.focus();
+    this.error = 'Name / Surname not valid!'
+    this.nameRef!.nativeElement.focus()
   } else if (!emailValid(this.email)) {
     this.error = 'Email not valid!';
-    this.emailRef!.nativeElement.focus();
+    this.emailRef!.nativeElement.focus()
   } else if (this.password === '') {
-    this.error = 'Password empty!';
-    this.passwordRef!.nativeElement.focus();
+    this.error = 'Password empty!'
+    this.passwordRef!.nativeElement.focus()
   } else if (this.password.length < 8) {
-    this.error = 'Password count min 8';
-    this.passwordRef!.nativeElement.focus();
+    this.error = 'Password count min 8'
+    this.passwordRef!.nativeElement.focus()
   } else if (this.password !== this.passwordAgain) {
-    this.error = 'Password and Password Again not equals!';
+    this.error = 'Password and Password Again not equals!'
     this.passwordAgainRef!.nativeElement.focus();
   } else {
     // default rol student olabilir
-    const role: 'student' = 'student';
+    const role: 'student' = 'student'
 
     this.api.userRegister(this.name, this.email, this.password, role).subscribe({
       next: (user: IUser) => {
-        const fakeToken = Math.random().toString(36).substring(2);
+        const fakeToken = Math.random().toString(36).substring(2)
 
-        localStorage.setItem("userId", user.id.toString());
-        localStorage.setItem("token", fakeToken);
+        localStorage.setItem("userId", user.id.toString())
+        localStorage.setItem("token", fakeToken)
 
-        this.success = 'Register User Success';
+        this.success = 'Register User Success'
         this.formReset();
         this.cdr.detectChanges();
 
         setTimeout(() => {
-          this.router.navigate(['/courses'], { replaceUrl: true });
-        }, 2000);
+          this.router.navigate(['/courses'], { replaceUrl: true })
+        }, 2000)
       },
       error: () => {
-        this.error = 'E-Mail already in use!';
-        this.cdr.detectChanges();
+        this.error = 'E-Mail already in use!'
+        this.cdr.detectChanges()
       }
     })
   }

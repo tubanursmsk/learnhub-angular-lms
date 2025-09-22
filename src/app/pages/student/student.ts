@@ -33,10 +33,10 @@ export class Student implements OnInit {
   }
 
   ngOnInit() {
-    const userId = Number(localStorage.getItem("userId") || 0);
+    const userId = Number(localStorage.getItem("userId") || 0)
     if (userId) {
       this.loadUser(userId);
-      this.loadEnrollments(userId);
+      this.loadEnrollments(userId)
     }
   }
 
@@ -44,8 +44,8 @@ export class Student implements OnInit {
     this.api.userProfile(id).subscribe({
       next: (u) => {
         this.user = u;
-        this.userForm.patchValue(u);
-        this.cdr.detectChanges();
+        this.userForm.patchValue(u)
+        this.cdr.detectChanges()
       }
     });
   }
@@ -59,7 +59,7 @@ export class Student implements OnInit {
 
     this.api.updateUser(this.user.id, updatedUser).subscribe({
       next: () => {
-        alert("Profil bilgileri güncellendi!");
+        alert("Profil bilgileri güncellendi!")
         this.user = updatedUser;
       }
     });
@@ -68,27 +68,30 @@ export class Student implements OnInit {
   loadEnrollments(userId: number) {
     this.api.getEnrollmentsByUser(userId).subscribe({
       next: (enrolls) => {
-        this.enrollments = enrolls;
+        this.enrollments = enrolls
         // her enrollment için kurs bilgisi çek
         this.enrollments.forEach(en => {
           this.api.getCourseById(en.courseId).subscribe({
-            next: (c) => { this.courses.push(c); this.cdr.detectChanges(); }
-          });
-        });
+            next: (c) => { this.courses.push(c); this.cdr.detectChanges() 
+
+            }
+          })
+        })
       }
-    });
+    })
   }
 
-  selectCourse: Course | null = null;
-selectEnrollment: IEnrollment | null = null;
+  selectCourse: Course | null = null
+selectEnrollment: IEnrollment | null = null
 
 fncSelectCourse(course: Course) {
   this.selectCourse = course;
   const userId = Number(localStorage.getItem('userId'));
 
   this.api.getEnrollmentsByUser(userId).subscribe(enrollments => {
-    this.selectEnrollment = enrollments.find(e => e.courseId === course.id) || null;
-  });
+    this.selectEnrollment = enrollments.find(e => e.courseId === course.id) || null
+    this.cdr.detectChanges(); // template güncellenmesi için
+  })
 }
 
 }

@@ -18,11 +18,6 @@ export const commentUrl = {
     comments: `${baseURL}comments`
 }
 
-// newsletter
-export const newslatterUrl = {
-    news: `${baseURL}newsletter`
-}
-
 // users
 export const usersUrl = {
     users: `${baseURL}users`

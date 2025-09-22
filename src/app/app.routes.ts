@@ -32,6 +32,10 @@ export const routes: Routes = [
 
   ];
 
+
+
+
+  
 /*Bu kod parçaları, Angular uygulamasında routing (yönlendirme) işlemlerini tanımlar. 
 Angular’ın @angular/router modülü ile sayfa geçişlerini (SPA mantığında) kontrol edebilmeni sağlar.
 

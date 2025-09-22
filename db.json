@@ -292,6 +292,14 @@
       "date": "2025-09-18",
       "status": "Devam Ediyor",
       "progress": 0
+    },
+    {
+      "id": 0,
+      "userId": 2,
+      "courseId": "1",
+      "date": "2025-09-22",
+      "status": "Devam Ediyor",
+      "progress": 0
     }
   ],
   "comments": [
@@ -476,6 +484,13 @@
       "userId": 7,
       "text": "❤",
       "date": "2025-09-16"
+    },
+    {
+      "id": 0,
+      "courseId": "3",
+      "userId": 2,
+      "text": "😕😕😕\n",
+      "date": "2025-09-22"
     }
   ],
   "courses": [
@@ -493,17 +508,16 @@
       "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
     },
     {
-      "id": "2",
       "title": "React ile Modern Web",
-      "description": "React Hooks, Context API ve ileri seviye React konuları",
-      "instructor": "Ayşe Demir",
-      "instructorId": 2,
-      "image": "https://www.karmicksolutions.com/blog/wp-content/uploads/2020/05/React-Js-Or-React-Native-For-Modern-Web-Applications-Mobile-Apps-2.jpg",
-      "category": "Web Development",
-      "rating": 4.8,
-      "students": 980,
+      "description": "React Hooks, Context API ve ileri seviye React konuları.",
       "price": 129.99,
-      "videoUrl": "https://samplelib.com/lib/preview/mp4/sample-10s.mp4"
+      "image": "https://www.karmicksolutions.com/blog/wp-content/uploads/2020/05/React-Js-Or-React-Native-For-Modern-Web-Applications-Mobile-Apps-2.jpg",
+      "instructorId": 2,
+      "rating": 0,
+      "students": 0,
+      "category": "Uncategorized",
+      "videoUrl": "",
+      "id": "2"
     },
     {
       "id": "3",
