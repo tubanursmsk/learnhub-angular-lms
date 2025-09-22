@@ -99,6 +99,7 @@ feat: eğitmen kurs ekleme özelliği eklendi
 
 ## 📂 Proje Dosya Yapısı (Örnek)
 
+```java
 angular-lms-bitirme-projesi/
 │
 ├─ src/app/
